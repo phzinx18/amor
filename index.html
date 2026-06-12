@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para a Be ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="hero-tag">
+                feito com carinho ❤️
+            </span>
+
+            <h1>
+                oi, be...
+            </h1>
+
+            <p>
+                tem algumas coisas que eu gostaria de te mostrar.
+            </p>
+
+            <a href="#historia" class="primary-button">
+                começar
+            </a>
+
+        </div>
+
+        <div class="hero-glow"></div>
+
+    </section>
+
+    <!-- ================= HISTÓRIA ================= -->
+
+    <section id="historia" class="section">
+
+        <div class="section-header">
+            <h2>nossa história</h2>
+            <p>alguns momentos que mudaram tudo.</p>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-date">
+                    28/03/2025
+                </div>
+
+                <div class="timeline-card">
+                    <h3>quando nos conhecemos</h3>
+
+                    <p>
+                        <!-- editar evento aqui -->
+                        escreva aqui uma lembrança desse dia.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <div class="timeline-date">
+                    28/03/2026
+                </div>
+
+                <div class="timeline-card">
+                    <h3>quando começamos a namorar</h3>
+
+                    <p>
+                        <!-- editar evento aqui -->
+                        escreva aqui uma lembrança desse momento.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- adicionar novos eventos aqui -->
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTADOR ================= -->
+
+    <section class="section">
+
+        <div class="section-header">
+            <h2>estamos juntos há</h2>
+            <p>e eu ainda gosto de cada segundo ❤️</p>
+        </div>
+
+        <div class="counter-grid">
+
+            <div class="counter-card">
+                <span id="days">0</span>
+                <p>dias</p>
+            </div>
+
+            <div class="counter-card">
+                <span id="hours">0</span>
+                <p>horas</p>
+            </div>
+
+            <div class="counter-card">
+                <span id="minutes">0</span>
+                <p>minutos</p>
+            </div>
+
+            <div class="counter-card">
+                <span id="seconds">0</span>
+                <p>segundos</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= QUIZ ================= -->
+
+    <section class="section">
+
+        <div class="section-header">
+            <h2>quiz da nossa história</h2>
+            <p>vamos ver o quanto você sabe sobre nós 😌</p>
+        </div>
+
+        <div class="quiz-container">
+
+            <div class="quiz-progress">
+
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+
+                <span id="question-counter">
+                    pergunta 1 de 10
+                </span>
+
+            </div>
+
+            <div class="quiz-card">
+
+                <h3 id="question">
+                    carregando pergunta...
+                </h3>
+
+                <div id="answers" class="answers-container">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DESBLOQUEIO ================= -->
+
+    <section id="unlock-section" class="section hidden">
+
+        <div class="section-header">
+            <h2>parabéns ❤️</h2>
+            <p>você desbloqueou todas as memórias.</p>
+        </div>
+
+        <div class="rewards-grid">
+
+            <button class="reward-card" id="open-letter">
+
+                <span>💌</span>
+
+                <h3>carta especial</h3>
+
+                <p>
+                    uma mensagem escrita especialmente para você.
+                </p>
+
+            </button>
+
+            <button class="reward-card" id="open-gallery">
+
+                <span>📸</span>
+
+                <h3>galeria</h3>
+
+                <p>
+                    algumas memórias que gosto de guardar.
+                </p>
+
+            </button>
+
+            <button class="reward-card" id="open-surprise">
+
+                <span>❤️</span>
+
+                <h3>surpresa</h3>
+
+                <p>
+                    uma última coisa antes de ir embora.
+                </p>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CARTA ================= -->
+
+    <div class="modal hidden" id="letter-modal">
+
+        <div class="modal-content">
+
+            <button class="close-modal">
+                ✕
+            </button>
+
+            <h2>para você ❤️</h2>
+
+            <div class="letter-text">
+
+                <!-- EDITAR DECLARAÇÃO AQUI -->
+
+                <p>
+                    escreva aqui sua declaração.
+                </p>
+
+                <p>
+                    conte momentos importantes, sentimentos,
+                    lembranças e tudo o que quiser dizer.
+                </p>
+
+                <p>
+                    esta área foi criada para você personalizar.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= GALERIA ================= -->
+
+    <div class="modal hidden" id="gallery-modal">
+
+        <div class="modal-content gallery-content">
+
+            <button class="close-modal">
+                ✕
+            </button>
+
+            <h2>nossas memórias 📸</h2>
+
+            <div class="gallery-grid">
+
+                <!-- SUBSTITUIR IMAGENS -->
+
+                <div class="gallery-item large">
+                    <img src="img/foto1.jpg" alt="">
+                    <span>escreva uma lembrança aqui</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/foto2.jpg" alt="">
+                    <span>escreva uma lembrança aqui</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/foto3.jpg" alt="">
+                    <span>escreva uma lembrança aqui</span>
+                </div>
+
+                <div class="gallery-item large">
+                    <img src="img/foto4.jpg" alt="">
+                    <span>escreva uma lembrança aqui</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/foto5.jpg" alt="">
+                    <span>escreva uma lembrança aqui</span>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="img/foto6.jpg" alt="">
+                    <span>escreva uma lembrança aqui</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= SURPRESA ================= -->
+
+    <div class="modal hidden" id="surprise-modal">
+
+        <div class="modal-content surprise-content">
+
+            <button class="close-modal">
+                ✕
+            </button>
+
+            <h2>
+                obrigado por fazer parte da minha vida ❤️
+            </h2>
+
+            <div class="surprise-counter">
+
+                <div>
+                    <h3 id="known-days">0</h3>
+                    <p>dias desde que nos conhecemos</p>
+                </div>
+
+                <div>
+                    <h3 id="love-days">0</h3>
+                    <p>dias de namoro</p>
+                </div>
+
+            </div>
+
+            <p class="custom-message">
+
+                <!-- EDITAR TEXTO FINAL AQUI -->
+
+                escreva aqui sua mensagem final.
+
+            </p>
+
+            <div id="hearts-container"></div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= MÚSICA ================= -->
+
+    <div class="music-player">
+
+        <button id="music-toggle">
+
+            ♫
+
+        </button>
+
+        <audio id="music">
+
+            <!-- TROCAR MÚSICA AQUI -->
+
+            <source src="msc/09. Dfideliz - Essa Noite Eu Bebi Amor (Part. Dagrace).mp3" type="audio/mpeg">
+
+        </audio>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
