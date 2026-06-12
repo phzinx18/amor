@@ -13,7 +13,7 @@ const perguntas = [
     {
         pergunta: "quem é mais teimoso?",
         opcoes: ["eu", "você", "ninguém 😅"],
-        correta: 1
+        correta: 0
     },
     {
         pergunta: "quem demora mais para escolher algo?",
@@ -28,7 +28,7 @@ const perguntas = [
     {
         pergunta: "quem manda mais fotos aleatórias?",
         opcoes: ["eu", "você", "os dois"],
-        correta: 2
+        correta: 0
     },
     {
         pergunta: "quem é mais organizada?",
@@ -43,7 +43,7 @@ const perguntas = [
     {
         pergunta: "quem é mais romântica?",
         opcoes: ["eu", "você", "os dois"],
-        correta: 2
+        correta: 0
     },
     {
         pergunta: "quem ama mais o outro?",
